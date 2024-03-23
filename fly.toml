@@ -1,0 +1,10 @@
+app = 'udp'
+primary_region = 'ord'
+
+[[services]]
+  protocol = 'udp'
+  internal_port = 1235
+
+[[services.ports]]
+    port = 1235
+
